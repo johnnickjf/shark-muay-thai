@@ -9,10 +9,8 @@
         content="Shark Muay Thai - Academia especializada em Muay Thai. Aulas para todos os níveis. Melhore sua saúde, condicionamento físico e autoconfiança.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
-    <script src="script.js"></script>
 </head>
 
 <body>
@@ -24,24 +22,23 @@
                     <img class="logo-image" src="images/Logo.png" alt="Shark Muay Thai Logo" style="width: 80px; border-radius: 80%;">
                     Shark Muay Thai
                 </a>
-                <button class="nav-toggle" id="navToggle">
+                <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
                     <i class="fas fa-bars"></i>
                 </button>
                 <ul class="nav-links" id="navLinks">
                     <li><a href="#beneficios">Benefícios</a></li>
                     <li><a href="#professor">Professor</a></li>
-                    <li><a href="#historia">História</a></li>
-                    <li><a href="#graduacao">Graduação</a></li>
-                    <li><a href="#valores">Valores</a></li>
+                    <li><a href="#horarios">Horários</a></li>
+                    <li><a href="#valores">Planos</a></li>
                     <li><a href="#galeria">Galeria</a></li>
-                    <li><a href="#contato">Aula Grátis</a></li>
+                    <li><a href="#contato" class="nav-cta-link">Aula Grátis</a></li>
                 </ul>
             </div>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="top">
         <div class="container">
             <div class="hero-inner">
                 <h1>Transforme Seu Corpo e Mente com o <span>Muay Thai</span></h1>
@@ -58,22 +55,19 @@
         <div class="container">
             <div class="swiper">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide"
-                        style="background-image: url('images/Treinos\ \(1\).jpg')">
+                    <div class="swiper-slide" style="background-image: url('images/Treinos (1).jpg')">
                         <div class="swiper-slide-content">
                             <h3>Treinos Intensivos</h3>
                             <p>Aulas que desafiam seus limites e potencializam seus resultados</p>
                         </div>
                     </div>
-                    <div class="swiper-slide"
-                        style="background-image: url('images/Treinos.jpg')">
+                    <div class="swiper-slide" style="background-image: url('images/Treinos.jpg')">
                         <div class="swiper-slide-content">
                             <h3>Técnica e Disciplina</h3>
                             <p>Aprimore suas habilidades com instrutores qualificados</p>
                         </div>
                     </div>
-                    <div class="swiper-slide"
-                        style="background-image: url('images/Treinos\ \(6\).jpg')">
+                    <div class="swiper-slide" style="background-image: url('images/Treinos (6).jpg')">
                         <div class="swiper-slide-content">
                             <h3>Ambiente Familiar</h3>
                             <p>Treine em um espaço acolhedor com pessoas que compartilham seus objetivos</p>
@@ -122,16 +116,12 @@
             </div>
             <div class="professor-inner">
                 <div class="professor-image">
-                    <img src="images/Esquete2.jpg"
-                        alt="Professor Shark Muay Thai">
+                    <img src="images/Esquete2.jpg" alt="Professor Mestre Esquéte Rampage - Shark Muay Thai">
                 </div>
                 <div class="professor-content">
                     <h2>Mestre Esquéte Rampage</h2>
                     <p>13º khan Preta/Branca no Muay Thai, o Mestre Esquéte se especializou nas técnicas tradicionais da arte marcial.</p>
-                    <p>Sua metodologia de ensino combina a tradição do Muay Thai com técnicas modernas de
-                        condicionamento físico, garantindo resultados eficazes e seguros para alunos de todos os níveis.
-                    </p>
-
+                    <p>Sua metodologia de ensino combina a tradição do Muay Thai com técnicas modernas de condicionamento físico, garantindo resultados eficazes e seguros para alunos de todos os níveis.</p>
                     <div class="professor-features">
                         <div class="professor-feature">
                             <i class="fas fa-trophy"></i>
@@ -168,14 +158,8 @@
                 <p>Conheça as origens e a evolução da arte das oito armas</p>
             </div>
             <div class="history-content">
-                <p>O Muay Thai, também conhecido como "A Arte das Oito Armas", é uma arte marcial tailandesa com séculos
-                    de história. Desenvolvido como forma de combate corpo a corpo, utiliza punhos, cotovelos, joelhos,
-                    canelas e pés, transformando o corpo humano em uma arma eficiente.</p>
-                <p>Originário do Reino de Sião (atual Tailândia), o Muay Thai era praticado pelos soldados tailandeses
-                    como técnica de defesa pessoal. Com o tempo, evoluiu para um esporte popular, mantendo suas
-                    tradições e rituais sagrados, como o Wai Khru Ram Muay - dança ritual realizada antes das lutas para
-                    homenagear os mestres.</p>
-
+                <p>O Muay Thai, também conhecido como "A Arte das Oito Armas", é uma arte marcial tailandesa com séculos de história. Desenvolvido como forma de combate corpo a corpo, utiliza punhos, cotovelos, joelhos, canelas e pés, transformando o corpo humano em uma arma eficiente.</p>
+                <p>Originário do Reino de Sião (atual Tailândia), o Muay Thai era praticado pelos soldados tailandeses como técnica de defesa pessoal. Com o tempo, evoluiu para um esporte popular, mantendo suas tradições e rituais sagrados, como o Wai Khru Ram Muay - dança ritual realizada antes das lutas para homenagear os mestres.</p>
                 <div class="history-highlights">
                     <div class="history-highlight">
                         <i class="fas fa-history"></i>
@@ -205,111 +189,158 @@
                 <p>Evolua em sua jornada no Muay Thai através do nosso sistema de Graduação</p>
             </div>
             <div class="graduation-steps">
-                <div class="graduation-step">
-                    <div class="step-number">1</div>
-                    <h3>Prajied Branco</h3>
-                    <p>Iniciante - Fundamentos básicos</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">2</div>
-                    <h3>Prajied Amarelo</h3>
-                    <p>Conhecimento das técnicas essenciais</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">3</div>
-                    <h3>Prajied Amarelo e Branco</h3>
-                    <p>Transição para nível intermediário</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">4</div>
-                    <h3>Prajied Verde</h3>
-                    <p>Aperfeiçoamento técnico</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">5</div>
-                    <h3>Prajied Verde e Branco</h3>
-                    <p>Desenvolvimento de combinações</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">6</div>
-                    <h3>Prajied Azul</h3>
-                    <p>Domínio das técnicas</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">7</div>
-                    <h3>Prajied Azul e Branco</h3>
-                    <p>Refinamento técnico avançado</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">8</div>
-                    <h3>Prajied Marrom</h3>
-                    <p>Técnicas complexas</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">9</div>
-                    <h3>Prajied Marrom e Branco</h3>
-                    <p>Preparação para o Prajied preta</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">10</div>
-                    <h3>Prajied Vermelho</h3>
-                    <p>Técnicas avançadas</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">11</div>
-                    <h3>Prajied Vermelho e Branco</h3>
-                    <p>Domínio completo das técnicas</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">12</div>
-                    <h3>Prajied Preto</h3>
-                    <p>Mestrado - Nível professor</p>
-                </div>
-                <div class="graduation-step">
-                    <div class="step-number">13</div>
-                    <h3>Prajied Preto e Branco</h3>
-                    <p>Grande mestre - Excelência máxima</p>
-                </div>
+                <div class="graduation-step"><div class="step-number step-branco">1</div><h3>Prajied Branco</h3><p>Iniciante - Fundamentos básicos</p></div>
+                <div class="graduation-step"><div class="step-number step-amarelo">2</div><h3>Prajied Amarelo</h3><p>Conhecimento das técnicas essenciais</p></div>
+                <div class="graduation-step"><div class="step-number step-amarelo-branco">3</div><h3>Prajied Amarelo e Branco</h3><p>Transição para nível intermediário</p></div>
+                <div class="graduation-step"><div class="step-number step-verde">4</div><h3>Prajied Verde</h3><p>Aperfeiçoamento técnico</p></div>
+                <div class="graduation-step"><div class="step-number step-verde-branco">5</div><h3>Prajied Verde e Branco</h3><p>Desenvolvimento de combinações</p></div>
+                <div class="graduation-step"><div class="step-number step-azul">6</div><h3>Prajied Azul</h3><p>Domínio das técnicas</p></div>
+                <div class="graduation-step"><div class="step-number step-azul-branco">7</div><h3>Prajied Azul e Branco</h3><p>Refinamento técnico avançado</p></div>
+                <div class="graduation-step"><div class="step-number step-marrom">8</div><h3>Prajied Marrom</h3><p>Técnicas complexas</p></div>
+                <div class="graduation-step"><div class="step-number step-marrom-branco">9</div><h3>Prajied Marrom e Branco</h3><p>Preparação para o Prajied Preta</p></div>
+                <div class="graduation-step"><div class="step-number step-vermelho">10</div><h3>Prajied Vermelho</h3><p>Técnicas avançadas</p></div>
+                <div class="graduation-step"><div class="step-number step-vermelho-branco">11</div><h3>Prajied Vermelho e Branco</h3><p>Domínio completo das técnicas</p></div>
+                <div class="graduation-step"><div class="step-number step-preto">12</div><h3>Prajied Preto</h3><p>Mestrado - Nível professor</p></div>
+                <div class="graduation-step"><div class="step-number step-preto-branco">13</div><h3>Prajied Preto e Branco</h3><p>Grande mestre - Excelência máxima</p></div>
             </div>
         </div>
     </section>
 
-    <!-- Values Section -->
+    <!-- Schedule Section -->
+    <section id="horarios" class="section schedule">
+        <div class="container">
+            <div class="section-title">
+                <h2>Quadro de Horários</h2>
+                <p>Confira os horários das aulas e escolha o que melhor se encaixa na sua rotina</p>
+            </div>
+            <div class="schedule-grid">
+                <div class="schedule-card">
+                    <div class="schedule-days">TER / QUA / QUI</div>
+                    <div class="schedule-time"><i class="far fa-clock"></i> 07:00hs</div>
+                    <div class="schedule-instructor"><i class="fas fa-user"></i> Inst. Tico</div>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-days">TER / QUI</div>
+                    <div class="schedule-time"><i class="far fa-clock"></i> 15:00hs</div>
+                    <div class="schedule-instructor"><i class="fas fa-user"></i> Inst. Talyson</div>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-days">TER / QUI</div>
+                    <div class="schedule-time"><i class="far fa-clock"></i> 18:20hs</div>
+                    <div class="schedule-instructor"><i class="fas fa-user"></i> Inst. Breno</div>
+                </div>
+                <div class="schedule-card schedule-kids">
+                    <div class="schedule-days">SEG / QUA <span class="kids-badge">KIDS</span></div>
+                    <div class="schedule-time"><i class="far fa-clock"></i> 17:40hs</div>
+                    <div class="schedule-instructor"><i class="fas fa-user"></i> Inst. Tico &amp; Isadora</div>
+                </div>
+                <div class="schedule-card schedule-featured">
+                    <div class="schedule-days">SEG / QUA / SEX</div>
+                    <div class="schedule-time"><i class="far fa-clock"></i> 19:20hs</div>
+                    <div class="schedule-instructor"><i class="fas fa-user"></i> Prof. Esquéte</div>
+                </div>
+            </div>
+            <p class="schedule-note">
+                <i class="fas fa-info-circle"></i>
+                Horários sujeitos a alterações. Confirme pelo WhatsApp ou pelo aplicativo NextFit.
+            </p>
+        </div>
+    </section>
+
+    <!-- Values / Plans Section -->
     <section id="valores" class="section values">
         <div class="container">
             <div class="section-title">
                 <h2>Nossos Planos</h2>
-                <p>Invista em sua saúde e bem-estar com planos acessíveis</p>
+                <p>Invista em sua saúde e bem-estar com planos acessíveis para cada rotina</p>
             </div>
             <div class="values-grid">
                 <div class="value-card">
-                    <h3>Plano Completo</h3>
+                    <div class="value-card-icon">🥊</div>
+                    <h3>Plano Iniciante</h3>
                     <div class="price">R$ 120<span>/mês</span></div>
                     <ul>
-                        <li>3 aulas por semana</li>
-                        <li>Acesso ao grupo VIP</li>
-                        <li>Avaliação física</li>
-                        <li>Material de apoio</li>
-                        <li>Aulas de condicionamento</li>
+                        <li><i class="fas fa-check"></i> 2x por semana</li>
+                        <li><i class="fas fa-check"></i> Aulas de Muay Thai</li>
+                        <li><i class="fas fa-check"></i> Ambiente motivador</li>
+                        <li><i class="fas fa-check"></i> Acompanhamento técnico</li>
                     </ul>
-                    <a href="#contato" class="btn primary">Quero Este Plano</a>
+                    <a href="https://publico.nextfit.com.br/externo/2df1eb1a-d4a5-4289-aeed-0f7fc9e8cca1" target="_blank" class="btn primary">Matricular-se</a>
+                </div>
+                <div class="value-card value-card-featured">
+                    <div class="value-card-badge">Mais Popular</div>
+                    <div class="value-card-icon">🥊</div>
+                    <h3>Plano Intermediário</h3>
+                    <div class="price">R$ 130<span>/mês</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 3x por semana</li>
+                        <li><i class="fas fa-check"></i> Aulas de Muay Thai</li>
+                        <li><i class="fas fa-check"></i> Ambiente motivador</li>
+                        <li><i class="fas fa-check"></i> Acompanhamento técnico</li>
+                    </ul>
+                    <a href="https://publico.nextfit.com.br/externo/2df1eb1a-d4a5-4289-aeed-0f7fc9e8cca1" target="_blank" class="btn primary">Matricular-se</a>
                 </div>
                 <div class="value-card">
-                    <h3>Plano Personalizado</h3>
-                    <div class="price">R$ ***<span>/mês</span></div>
+                    <div class="value-card-icon">🔥</div>
+                    <h3>Plano Atleta</h3>
+                    <div class="price">R$ 150<span>/mês</span></div>
                     <ul>
-                        <li>Aulas ilimitadas</li>
-                        <li>Acesso ao grupo VIP</li>
-                        <li>Avaliação física mensal</li>
-                        <li>Material de apoio completo</li>
-                        <li>Aulas de condicionamento</li>
-                        <li>Preparação para competições</li>
+                        <li><i class="fas fa-check"></i> Treino livre até 5x/semana</li>
+                        <li><i class="fas fa-check"></i> Todos os horários disponíveis</li>
+                        <li><i class="fas fa-check"></i> Foco em evolução técnica</li>
+                        <li><i class="fas fa-check"></i> Preparação para competições</li>
                     </ul>
-                    <a href="#contato" class="btn primary">Quero Este Plano</a>
+                    <a href="https://publico.nextfit.com.br/externo/2df1eb1a-d4a5-4289-aeed-0f7fc9e8cca1" target="_blank" class="btn primary">Matricular-se</a>
                 </div>
+                <div class="value-card value-card-kids">
+                    <div class="value-card-icon">👊</div>
+                    <h3>Treino Kids</h3>
+                    <div class="price">R$ 130<span>/mês</span></div>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Aulas infantis especializadas</li>
+                        <li><i class="fas fa-check"></i> SEG e QUA — 17:40hs</li>
+                        <li><i class="fas fa-check"></i> Disciplina e respeito</li>
+                        <li><i class="fas fa-check"></i> Desenvolvimento motor e foco</li>
+                    </ul>
+                    <a href="https://publico.nextfit.com.br/externo/2df1eb1a-d4a5-4289-aeed-0f7fc9e8cca1" target="_blank" class="btn primary">Matricular-se</a>
+                </div>
+            </div>
+            <div class="matricula-info">
+                <i class="fas fa-thumbtack"></i>
+                <strong>Taxa de matrícula: R$ 50,00</strong>
+                <span>— paga uma única vez no momento do cadastro.</span>
             </div>
         </div>
     </section>
+
+    <!-- NextFit Banner (compact) -->
+    <div class="nextfit-banner" id="app">
+        <div class="container">
+            <div class="nextfit-banner-inner">
+                <div class="nextfit-banner-text">
+                    <span class="nextfit-banner-icon">📱</span>
+                    <div>
+                        <strong>Novo! Gerencie sua academia pelo app NextFit</strong>
+                        <span>Acompanhe horários, pague mensalidade e receba avisos — tudo no celular.</span>
+                    </div>
+                </div>
+                <div class="nextfit-banner-actions">
+                    <a href="https://publico.nextfit.com.br/externo/2df1eb1a-d4a5-4289-aeed-0f7fc9e8cca1"
+                        target="_blank" class="nextfit-banner-btn">
+                        <i class="fas fa-user-plus"></i> Fazer Cadastro
+                    </a>
+                    <a href="https://wa.me/553291159256?text=Olá! Gostaria de saber mais sobre o app NextFit da Shark Muay Thai."
+                        target="_blank" class="nextfit-banner-wpp">
+                        <i class="fab fa-whatsapp"></i> Dúvidas pelo WhatsApp
+                    </a>
+                    <a href="help.html" class="nextfit-banner-wpp" style="opacity:0.65;">
+                        <i class="fas fa-question-circle"></i> Ajuda com o app
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Gallery Section -->
     <section id="galeria" class="section gallery">
@@ -319,46 +350,14 @@
                 <p>Conheça nosso espaço e veja nossos alunos em ação</p>
             </div>
             <div class="gallery-grid">
-                <div class="gallery-item">
-                    <div class="gallery-image"
-                        style="background-image: url('images/Treinos\ \(1\).jpg')">
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image"
-                        style="background-image: url('images/Treinos\ \(2\).jpg')">
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image"
-                        style="background-image: url('images/Treinos\ \(3\).jpg')">
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image"
-                        style="background-image: url('images/Treinos\ \(4\).jpg')">
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image"
-                        style="background-image: url('images/Treinos\ \(5\).jpg')">
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image"
-                        style="background-image: url('images/Treinos\ \(6\).jpg')">
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image"
-                        style="background-image: url('images/Treinos\ \(7\).jpg')">
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <div class="gallery-image"
-                        style="background-image: url('images/Treinos\ \(8\).jpg')">
-                    </div>
-                </div>
+                <div class="gallery-item"><div class="gallery-image" style="background-image: url('images/Treinos (1).jpg')"></div></div>
+                <div class="gallery-item"><div class="gallery-image" style="background-image: url('images/Treinos (2).jpg')"></div></div>
+                <div class="gallery-item"><div class="gallery-image" style="background-image: url('images/Treinos (3).jpg')"></div></div>
+                <div class="gallery-item"><div class="gallery-image" style="background-image: url('images/Treinos (4).jpg')"></div></div>
+                <div class="gallery-item"><div class="gallery-image" style="background-image: url('images/Treinos (5).jpg')"></div></div>
+                <div class="gallery-item"><div class="gallery-image" style="background-image: url('images/Treinos (6).jpg')"></div></div>
+                <div class="gallery-item"><div class="gallery-image" style="background-image: url('images/Treinos (7).jpg')"></div></div>
+                <div class="gallery-item"><div class="gallery-image" style="background-image: url('images/Treinos (8).jpg')"></div></div>
             </div>
         </div>
     </section>
@@ -373,30 +372,35 @@
             <div class="contact-inner">
                 <div class="contact-info">
                     <h3>Informações de Contato</h3>
-                    <p>Estamos prontos para te receber e mostrar como o Muay Thai pode transformar sua vida. Traga roupa
-                        confortável e muita disposição!</p>
-
+                    <p>Estamos prontos para te receber e mostrar como o Muay Thai pode transformar sua vida. Traga roupa confortável e muita disposição!</p>
                     <div class="contact-details">
                         <div class="contact-detail">
                             <i class="fas fa-map-marker-alt"></i>
                             <div>
                                 <strong>Endereço</strong>
-                                <p>Rua Francisco Faria Nº 20 , Bairu / Av. Rui Barbosa 730 , (A.R.D.O Academia), Juiz de
-                                    Fora 36051-550</p>
+                                <p>Rua Francisco Faria Nº 20, Bairu<br>
+                                   Av. Rui Barbosa 730, A.R.D.O Academia<br>
+                                   Juiz de Fora — MG, 36051-550</p>
                             </div>
                         </div>
                         <div class="contact-detail">
                             <i class="fas fa-phone"></i>
                             <div>
-                                <strong>Telefone</strong>
-                                <p>(32) 9115-9256</p>
+                                <strong>Telefone / WhatsApp</strong>
+                                <p><a href="tel:+5532991159256">(32) 99115-9256</a></p>
                             </div>
                         </div>
                         <div class="contact-detail">
                             <i class="far fa-clock"></i>
                             <div>
-                                <strong>Horário de Funcionamento</strong>
-                                <p>Segunda, Quarta e Sexta: 19:30 às 20:30<br>Terça e Quinta: 7h às 8h</p>
+                                <strong>Horários de Aula</strong>
+                                <p>
+                                    Seg / Qua / Sex: 19:20hs — Prof. Esquéte<br>
+                                    Ter / Qua / Qui: 07:00hs — Inst. Tico<br>
+                                    Ter / Qui: 15:00hs — Inst. Talyson<br>
+                                    Ter / Qui: 18:20hs — Inst. Breno<br>
+                                    Seg / Qua KIDS: 17:40hs
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -404,12 +408,21 @@
 
                 <div class="contact-action">
                     <h3>Pronto para Começar?</h3>
-                    <p>Agende sua aula experimental gratuita e venha sentir a energia do Muay Thai!</p>
+                    <p>Agende sua aula experimental gratuita pelo WhatsApp ou faça seu cadastro direto no app!</p>
+
                     <a href="https://wa.me/553291159256?text=Olá! Gostaria de agendar uma aula experimental gratuita de Muay Thai."
                         class="btn whatsapp" target="_blank">
-                        <i class="fab fa-whatsapp"></i> Agendar Aula Grátis
+                        <i class="fab fa-whatsapp"></i> Falar com o Professor
                     </a>
-                    <p style="margin-top: 20px; font-size: 0.9rem;">Respondemos em até 24 horas</p>
+
+                    <div class="contact-divider"><span>ou</span></div>
+
+                    <a href="https://publico.nextfit.com.br/externo/2df1eb1a-d4a5-4289-aeed-0f7fc9e8cca1"
+                        target="_blank" class="btn nextfit-btn">
+                        <i class="fas fa-mobile-alt"></i> Fazer Cadastro no App NextFit
+                    </a>
+
+                    <p style="margin-top: 20px; font-size: 0.9rem; opacity: 0.85;">Respondemos em até 24 horas 🤙</p>
                 </div>
             </div>
         </div>
@@ -422,42 +435,53 @@
                 <div>
                     <strong>Shark Muay Thai</strong>
                     <p>Academia especializada em Muay Thai. Transformando vidas através da arte das oito armas.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/553291159256" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://publico.nextfit.com.br/externo/2df1eb1a-d4a5-4289-aeed-0f7fc9e8cca1" target="_blank" aria-label="App NextFit">
+                            <i class="fas fa-mobile-alt"></i>
+                        </a>
+                    </div>
                 </div>
                 <div>
                     <strong>Horários</strong>
-                    <p>Segunda, Quarta e Sexta: 19:30 às 20:30</p>
-                    <p>Terça e Quinta: 7h às 8h</p>
+                    <p>Seg / Qua / Sex: 19:20hs</p>
+                    <p>Ter / Qua / Qui: 07:00hs</p>
+                    <p>Ter / Qui: 15:00hs e 18:20hs</p>
+                    <p>Seg / Qua KIDS: 17:40hs</p>
                     <p>Sábado e Domingo: Fechado</p>
                 </div>
                 <div>
                     <strong>Contato</strong>
-                    <p><a href="tel:553291159256">(32) 99115-9256</a></p>
-                    <p><a href="mailto:contato@sharkmuaythai.com.br">contato@sharkmuaythai.com.br</a></p>
-                    <p>Minas Gerais, JF</p>
+                    <p><a href="tel:+5532991159256">(32) 99115-9256</a></p>
+                    <p>Juiz de Fora — MG</p>
+                    <p style="margin-top: 12px;">
+                        <a href="https://publico.nextfit.com.br/externo/2df1eb1a-d4a5-4289-aeed-0f7fc9e8cca1" target="_blank" style="display:inline-flex;align-items:center;gap:6px;">
+                            <i class="fas fa-user-plus"></i> Cadastro NextFit
+                        </a>
+                    </p>
                 </div>
             </div>
 
             <div class="credits">
                 <p>Site desenvolvido por <span class="developer">Johnnick Landim</span></p>
                 <div class="developer-links">
-                    <a href="https://links.johnnick.com.br/" target="_blank">
-                        <i class="fas fa-globe"></i> Meu Site
-                    </a>
-                    <a href="https://github.com/johnnickjf" target="_blank">
-                        <i class="fab fa-github"></i> GitHub
-                    </a>
-                    <a href="https://www.linkedin.com/in/johnnickjf/" target="_blank">
-                        <i class="fab fa-linkedin"></i> LinkedIn
-                    </a>
-                    <a href="https://wa.me/5532991447768" target="_blank">
-                        <i class="fab fa-whatsapp"></i> WhatsApp
-                    </a>
+                    <a href="https://links.johnnick.com.br/" target="_blank"><i class="fas fa-globe"></i> Meu Site</a>
+                    <a href="https://github.com/johnnickjf" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/johnnickjf/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://wa.me/5532991447768" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
                 </div>
             </div>
 
-            <p class="copyright">© 2025 Shark Muay Thai — Todos os direitos reservados.</p>
+            <div class="copyright">
+                <p>&copy; 2025 Shark Muay Thai. Todos os direitos reservados.</p>
+            </div>
         </div>
     </footer>
-</body>
 
+    <!-- Scripts no fim do body para melhor performance -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
